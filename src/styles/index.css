@@ -1,12 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
 
-/* 
+.navbar {
+    padding: 20px 0;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.navbar-nav {
+    padding-right: 20px;
+}
 
-*/
+.logo {
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.jumbo {
+    display: flex;
+    margin: 35px;
+}
+
+.card-main {
+    margin-bottom: 30px; 
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: flex-start; 
+    justify-content: space-between;
+}
+
+.footer {
+    margin-top: 30px; 
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card {
+    margin: 15px 0; 
+}
+
+.card img {
+    max-width: 100%; 
+    height: auto;
+}
